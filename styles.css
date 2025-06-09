@@ -1347,6 +1347,12 @@ body.dark .toggle-theme .icon-sun { display: inline; }
   padding: 0.7em 1.3em;
   transition: background 0.2s, box-shadow 0.2s, transform 0.2s;
 }
+.antiphish-github-btn:hover,
+.antiphish-github-btn:focus {
+  border-color: #0a0a0a;
+  background: #7f8cff;
+  color: #fff;
+}
 .antiphish-github-btn .github-btn-label {
   margin-right: 0.5em;
   font-weight: 600;
