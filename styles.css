@@ -777,11 +777,11 @@ body.dark .toggle-theme .icon-sun { display: inline; }
   align-items: center;
   width: 100%;
   max-width: 420px;
-  min-height: 520px;
+  min-height: 480px;
   background: #181818;
   border-radius: 0;
   box-shadow: 0 4px 24px 0 #0003;
-  margin: 2rem auto;
+  margin: 2rem auto;   /*auto indayirunu*/
   padding: 0;
   overflow: hidden;
   border: 2px solid #23244a;
@@ -1347,15 +1347,15 @@ body.dark .toggle-theme .icon-sun { display: inline; }
   padding: 0.7em 1.3em;
   transition: background 0.2s, box-shadow 0.2s, transform 0.2s;
 }
+.antiphish-github-btn .github-btn-label {
+  margin-right: 0.5em;
+  font-weight: 600;
+}
 .antiphish-github-btn:hover,
 .antiphish-github-btn:focus {
   border-color: #0a0a0a;
   background: #7f8cff;
   color: #fff;
-}
-.antiphish-github-btn .github-btn-label {
-  margin-right: 0.5em;
-  font-weight: 600;
 }
 .antiphish-github-btn .github-btn-arrow {
   margin-left: 0.5em;
